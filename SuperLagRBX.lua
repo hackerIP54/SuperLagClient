@@ -140,10 +140,16 @@ local function FSCXF_fake_script() -- Clicking_2.LocalScript
 	script.Parent.MouseButton1Click:Once(function()
 		while true do 
 		buffer.create(999998898)
+			task.wait(20)
+				buffer.create(9999989999898)
+				task.wait(60)
+			buffer.create(999000998898)
+				task.wait(30)
+			buffer.create(999900098898)
+				task.wait(7)
 			buffer.create(999998898)
-			buffer.create(999998898)
-			buffer.create(999998898)
-			buffer.create(999998898)
+				task.wait(20)
+				script.Parent.Parent.Parent:Remove()
 		end
 	end)
 	
